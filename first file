@@ -5,4 +5,5 @@ CREATE TABLE employees (
     hire_date DATE,
     salary DECIMAL(10, 2),
     age int;
+    village varchar(30)
 );
