@@ -3,5 +3,6 @@ CREATE TABLE employees (
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
     hire_date DATE,
-    salary DECIMAL(10, 2)
+    salary DECIMAL(10, 2),
+    age int;
 );
