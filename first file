@@ -6,4 +6,5 @@ CREATE TABLE employees (
     salary DECIMAL(10, 2),
     age int;
     village (varchar(30))
+    email varchar(100)
 );
